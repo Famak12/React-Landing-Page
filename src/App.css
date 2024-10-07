@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-family: "Inria Sans", sans-serif;
+  font-family: "Aclonica", sans-serif;
 font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   background-color: azure;
 }
@@ -18,9 +18,37 @@ font-style: normal;
   background-size: cover;
   height: 70vh;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .head-container > div {
   background-color: black;
   opacity: 70%;
+  height: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.head-container > div > h1 {
+  padding-top: 2.5rem;
+  margin: 0;
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.head-container > div > p {
+  padding-top: 0;
+  margin: 0;
+}
+
+.head-container > div > div {
+  padding: 20px;
 }
