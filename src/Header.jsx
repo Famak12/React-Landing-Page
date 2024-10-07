@@ -8,7 +8,7 @@ function Header() {
       <h3>
       <span>TRAVEL</span>PORTAL
       </h3>
-      <h3>CALL US TOLL FREE 0800 123-4567</h3>
+      <h5>CALL US <span style={{color: "red"}}>TOLL FREE</span>  0800 123-4567</h5>
     </div>
     <div className='head-container'>
       <div>
@@ -18,9 +18,12 @@ function Header() {
         <input type="text" />
         <input type="submit" />
         </div>
-        
-
-      </div>
+        <div className='statment-div'>
+         <h4>Your shortcut to the world's best luxury hotels</h4>
+        </div>
+      </div>    
+    </div>
+    <div className='header-end'>
 
     </div>
     
