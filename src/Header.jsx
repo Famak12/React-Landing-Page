@@ -6,9 +6,13 @@ function Header() {
    <section>
     <div className='head-row'>
       <h3>
-        TRAVEL<span>PORTAL</span> 
+      <span>TRAVEL</span>PORTAL
       </h3>
       <h3>CALL US TOLL FREE 0800 123-4567</h3>
+    </div>
+    <div className='head-container'>
+      
+
     </div>
     
    </section>

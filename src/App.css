@@ -12,3 +12,15 @@ font-style: normal;
 .head-row > h3 > span {
   color: red;
 }
+
+.head-container {
+  background-image: url('public/images/Screenshot\ 2024-10-07\ 195117.png');
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+
+.head-container > div {
+  background-color: black;
+  opacity: 70%;
+}
