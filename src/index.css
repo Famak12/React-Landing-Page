@@ -8,11 +8,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 100vh;
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
     gap: 30px;
-    padding: 0 3rem 0 0;
+    /* padding: 0 3rem 0 0; */
 }
 
 .middle-container > div > h1 {
@@ -32,6 +32,7 @@ body {
     gap: 20px;
     text-align: center;
     padding: 2rem 2rem 0 0;
+    margin-bottom: 1.5rem;;
 }
 
 .destinations-div > div {
@@ -39,8 +40,36 @@ body {
     /* padding: 1rem; */
 }
 
-.destinations-div > div:hover {
-    border: 2px solid blue;
-    box-shadow: 1px 1px 5px blue;
+.destinations-div > div > img {
+   width: 350px; 
+   height: 300px;
 }
 
+.destinations-div > div > p{
+   color: red;
+ }
+
+.destinations-div > div:hover {
+    border: 2px solid rgb(29, 29, 74);
+    box-shadow: 1px 1px 5px rgb(29, 29, 74);
+}
+
+.about-div {
+    padding: 3rem 5rem;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(40, 40, 77);
+   color: white;
+
+}
+
+.about-div > h2 {
+    letter-spacing: 3px;
+    /* margin: 2rem 2rem; */
+}
+
+.about-div > p {
+    width: 70%;
+}
