@@ -103,7 +103,6 @@ font-style: normal;
         #000
     );
     inset: 0;
-    pointer-event: none;
 }
 @keyframes loop {
     0% {transform: translateX(100%);}

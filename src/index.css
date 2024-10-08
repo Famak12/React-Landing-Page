@@ -2,3 +2,45 @@ body {
  margin: 0;
  padding: 0;
 }
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    gap: 30px;
+    padding: 0 3rem 0 0;
+}
+
+.middle-container > div > h1 {
+    margin: 3.5rem 0.5rem 0 0;
+    background: linear-gradient(to right, purple, black, red, blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 5px purple;
+    letter-spacing: 2px;
+}
+
+.destinations-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 2rem 2rem 0 0;
+}
+
+.destinations-div > div {
+    border-radius: 5px;
+    /* padding: 1rem; */
+}
+
+.destinations-div > div:hover {
+    border: 2px solid blue;
+    box-shadow: 1px 1px 5px blue;
+}
+
