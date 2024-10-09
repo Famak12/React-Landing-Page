@@ -2,6 +2,8 @@ import React, {useState} from "react";
 
 function Middlecontainer() {
 
+  
+
     return (
         <section className="middle-container">
             <div> 

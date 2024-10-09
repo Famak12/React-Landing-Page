@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { slides } from "./Data/CarouselData.json";
 import "./Testimonials.css";
 import {BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+import 'animate.css';
 
 
 function Testimonials( ) {
@@ -23,7 +24,17 @@ function Testimonials( ) {
         <div className="carousel">
                 <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
             {slides.map((item, idx) => 
-                { return <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? "slide" : "slide slide-hidden"} /> }
+                { return <div className={slide === idx ? "slide animate__animated animate__fadeIn animate__slower" : "slide slide-hidden "}>
+                    <div className="card">
+                     <div className="top">
+                        <h2 className="name">{item.name}</h2>
+                      <img className="circle-img" src={item.imageURL} alt="avatar_img"/>
+                      </div>
+                        <div className="bottom">
+                        <p className="info">{item.testimony}</p>
+                      </div>
+                      </div>
+                    </div> }
             )}
                <BsArrowRightCircleFill onClick={nextSlide} className="arrow arrow-right"/>
                <span className="indicators">
