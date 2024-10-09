@@ -43,6 +43,7 @@ font-style: normal;
   flex-direction: column;
   color: white;
   text-align: center;
+  box-shadow: 0 0 5px black;
 }
 
 .head-container > div > h1 {

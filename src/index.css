@@ -14,6 +14,7 @@ box-sizing: border-box;
     height: 85vh;
     gap: 40px;
    padding: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 .heading1 {
@@ -63,6 +64,7 @@ box-sizing: border-box;
    align-items: center;
    background-color: rgb(40, 40, 77);
    color: white;
+   box-shadow: 0 0 10px rgb(40, 40, 77) ;
 
 }
 

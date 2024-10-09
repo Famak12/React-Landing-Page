@@ -36,7 +36,7 @@ function Testimonials( ) {
                       </div>
                     </div> }
             )}
-               <BsArrowRightCircleFill onClick={nextSlide} className="arrow arrow-right"/>
+               <BsArrowRightCircleFill onClick={nextSlide} className="arrow arrow-right animate__animated animate__heartBeat"/>
                <span className="indicators">
         {slides.map((_, idx) => {
           return (
