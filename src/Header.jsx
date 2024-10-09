@@ -17,7 +17,7 @@ function Header() {
         <p>Its safe, easy, and secure.</p>
         <div>
         <input type="text" style={{outline: 'none', padding: '5px', border: "2px solid white"}}/>
-        <input type="submit" className='btn' style={{backgroundColor: "red", color: "white", padding: '5px', border: '2px solid red'}} />
+        <input type="submit" className='butn' style={{backgroundColor: "red", color: "white", padding: '5px', border: '2px solid red'}} />
         </div>
         <div className='statment-div'>
          <h4>Your shortcut to the world's best luxury hotels</h4>

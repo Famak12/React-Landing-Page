@@ -129,7 +129,7 @@ font-style: normal;
   padding: 0.9rem 0 0 0;
 }
 
-.btn:hover {
+.butn:hover {
   cursor: pointer;
   box-shadow: 1px 1px 4px white;
 }

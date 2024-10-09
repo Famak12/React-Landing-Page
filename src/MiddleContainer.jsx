@@ -5,7 +5,7 @@ function Middlecontainer() {
     return (
         <section className="middle-container">
             <div> 
-                <h1 className="animate__animated animate__fadeIn animate__slower">Our Most Popular Destinations</h1>
+                <h1 className="animate__animated animate__fadeIn animate__slower heading1">Our Most Popular Destinations</h1>
             </div>
             <div className="destinations-div">
                 <div><img src="/images/Los-Angeles-at-night.jpg" alt=""/> <p>Los Angeles</p> </div>
