@@ -11,6 +11,6 @@ createRoot(document.getElementById('root')).render(
     <Header/>
     <Middlecontainer /> 
    <Testimonial/>
-
   </StrictMode>,
-)
+);
+
